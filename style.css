@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: #798757;
+}
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(156, 144, 202);
+}
+button:hover{
+    background-color: rgb(119, 186, 211);
+    cursor: pointer;
+}
+.image{
+    width: 500px;
+    height: 200px;
+    top: 100px;
+}
+.rotate{
+    animation:move 0.01s infinite;
+}
+@keyframes move {
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
